@@ -288,3 +288,95 @@ a {
 	text-align: center;
 	padding: 20px 10px;
 }
+
+.footer {
+	background-color: #304054;
+	color: #718db2;
+	padding: 80px 0 125px;
+}
+
+.footer-inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-col-logo {
+	width: 263px;
+}
+
+.footer-logo {
+	margin-bottom: 30px;
+}
+
+.footer-text {
+	font-size: 13px;
+	line-height: 22px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.footer-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #d0e4ff;
+	margin-bottom: 30px;
+}
+
+.footer-menu {
+	width: 165px;
+}
+
+.footer-list {
+	list-style: none;
+}
+
+.footer-list a {
+	font-size: 13px;
+	margin-bottom: 8px;
+	color: #718db2;
+}
+
+.footer-form {
+	width: 263px;
+}
+
+.footer-form input,
+.footer-form textarea {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background-color: transparent;
+	height: 38px;
+	display: block;
+	width: 100%;
+	padding: 0 12px;
+	color: #718db2;
+	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.footer-form input::placeholder,
+.footer-form textarea::placeholder {
+	color: #718db2;
+	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+
+}
+
+.footer-form textarea {
+	padding: 12px;
+	height: 85px;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+.footer-form button {
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	border: none;
+	background-color: #2575e7;
+	padding: 10px;
+	cursor: pointer; 
+}
