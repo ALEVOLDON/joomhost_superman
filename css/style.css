@@ -394,8 +394,9 @@ a {
 	margin: 0 -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
 	margin: 0 50px;
+	padding-bottom: 70px;
 }
 
 
@@ -411,7 +412,7 @@ a {
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
+	
 }
 
 .reviews-slider .slick-dots li {
