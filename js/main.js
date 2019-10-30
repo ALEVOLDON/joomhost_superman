@@ -8,6 +8,8 @@ $(function() {
         dots: true
     });
 
-
+    $(".btn-menu").on("click", function(){
+    	$(".menu-list").slideToggle();
+    });
 
 });
